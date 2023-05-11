@@ -1,0 +1,10 @@
+pipelineYaml: "/sdf/data/rubin/user/scichris/WORK/sitcomtn-072/latissWepPipeline.yaml"
+
+project: AOS
+campaign: DM-38609
+
+payload:
+  payloadName: latiss_230310_run/wep_full
+  butlerConfig: /sdf/group/rubin/repo/embargo/butler.yaml
+  inCollection: LATISS/calib/unbounded,LATISS/raw/all,LATISS/runs/quickLook
+  dataQuery: exposure in (2023020200434, 2023020200435)
